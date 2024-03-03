@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock.Paper.Scissor</title>
+    <link rel="stylesheet" href="rockpaper2.css" />
+    <link rel="stylesheet" href="rockpaper3.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="heading">
+        ROCK<span class="dot1">.</span>PAPER<span class="dot2">.</span>SCISSOR
+      </h1>
+      <div class="myBtns">
+        <button class="rockbtn myButtons" id="rockBtn" onclick="playRound('rock')">
+          ROCK 🗿</button
+        ><br /><br />
+        <button class="paperbtn myButtons" id="paperBtn" onclick="playRound('paper')">
+          PAPER 📃</button
+        ><br /><br />
+        <button
+          class="Scissorbtn myButtons"
+          id="scissorBtn"
+          onclick="playRound('scissor')"
+        >
+          SCISSOR ✂
+        </button>
+      </div>
+      <h3 id="result">Result wil be appear there!</h3>
+      <br />
+      <div id="points" class="points">
+        <span class="you">YOU: <span id="ourScore">0</span></span>
+        <span class="cs">COMPUTER:<span id="csScore">0</span></span>
+      </div>
+      <hr>
+    </div>
+    <div class="container2">
+      <h1 id="heading">
+        HISTORY
+      </h1>
+        <div class="overflow">
+                <h3 id="header1">NO.MATCH</h3>
+                <h3 id="header2">PLAYER</h3>
+                <h3 id="header3">COMPUTER</h3>
+            <span class="allSpan one">
+                <label for="" class="nmlabel1" id="nmLabel1">...</label><br>
+                <label for="" class="nmlabel2" id="nmLabel2">...</label><br>
+                <label for="" class="nmlabel3" id="nmLabel3">...</label><br>
+                <label for="" class="nmlabel4" id="nmLabel4">...</label><br>
+                <label for="" class="nmlabel5" id="nmLabel5">...</label><br>
+                <label for="" class="nmlabel6" id="nmLabel6">...</label><br>
+                <label for="" class="nmlabel7" id="nmLabel7">...</label><br>
+                <label for="" class="nmlabel8" id="nmLabel8">...</label><br>
+                <label for="" class="nmlabel9" id="nmLabel9">...</label><br>
+                <label for="" class="nmlabel10" id="nmLabel10">...</label><br>
+            </span>
+
+            <span class="allSpan two">
+                <label for="" class="plabel1" id="pLabel1">...</label><br>
+                <label for="" class="plabel2" id="pLabel2">...</label><br>
+                <label for="" class="plabel3" id="pLabel3">...</label><br>
+                <label for="" class="plabel4" id="pLabel4">...</label><br>
+                <label for="" class="plabel5" id="pLabel5">...</label><br>
+                <label for="" class="plabel6" id="pLabel6">...</label><br>
+                <label for="" class="plabel7" id="pLabel7">...</label><br>
+                <label for="" class="plabel8" id="pLabel8">...</label><br>
+                <label for="" class="plabel9" id="pLabel9">...</label><br>
+                <label for="" class="plabel10" id="pLabel10">...</label><br>
+            </span>
+            
+            <span class="allSpan three">
+                <label for="" class="clabel1" id="cLabel1">...</label><br>
+                <label for="" class="clabel2" id="cLabel2">...</label><br>
+                <label for="" class="clabel3" id="cLabel3">...</label><br>
+                <label for="" class="clabel4" id="cLabel4">...</label><br>
+                <label for="" class="clabel5" id="cLabel5">...</label><br>
+                <label for="" class="clabel6" id="cLabel6">...</label><br>
+                <label for="" class="clabel7" id="cLabel7">...</label><br>
+                <label for="" class="clabel8" id="cLabel8">...</label><br>
+                <label for="" class="clabel9" id="cLabel9">...</label><br>
+                <label for="" class="clabel10" id="cLabel10">...</label><br>
+            </span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="rockpaper.js"></script>
+</html>
