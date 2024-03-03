@@ -1,0 +1,92 @@
+#container,
+.container {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#heading {
+  font-size: 3rem;
+}
+
+.myBtns {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+button {
+  height: 100px;
+  width: 200px;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  margin-top: 150px;
+  background-color: white;
+  color: black;
+  box-shadow: 5px 10px 15px hsl(0, 0%, 21%);
+}
+
+.you {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.cs {
+  font-size: 2.5rem;
+  color: red;
+}
+
+#ourScore {
+  font-size: 2.5rem;
+  color: black;
+}
+
+#csScore {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.points {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+hr {
+  border: 4px solid beige;
+}
+
+.overflow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+#header1 {
+  font-size: 2.5rem;
+}
+
+#header2 {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+#header3 {
+  font-size: 2.5rem;
+  color: red;
+}
+
+.allSpan {
+  font-size: 2rem;
+}
+
+.two {
+  color: blue;
+}
+
+.three {
+  color: red;
+}
